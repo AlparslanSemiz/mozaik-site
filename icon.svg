@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Mozaik">
+  <title>Mozaik</title>
+  <!-- Drawn by hand on 2026-10-23 after the picture the user chose as THE icon
+       (asıl_ikon.jpeg), measured rather than traced: a wall-calendar page on
+       the brand indigo, hung on two hooks, with five lessons on it as weekday
+       columns. It replaces the six-column mark of 2026-08-26.
+
+       No text, no gradients, no shadows. The lesson colours are the picture's
+       own; the blue is palette.ts's #65b6ec, which it already matched.
+
+       Sized for 32 px, the smallest size that uses this drawing: there the
+       lessons are 3 px wide with 1 px between, and every horizontal edge is
+       on a whole pixel. The
+       five columns are centred on the page, which puts their sides half a
+       pixel off at 32; moving them off centre would show at large sizes.
+
+       Below 32 px the hooks and the gaps between five columns go to mush;
+       site/icon-small.svg is the same page with three lessons and no hooks. -->
+  <rect width="1024" height="1024" rx="180" fill="#2e3ba8"/>
+  <rect x="128" y="192" width="768" height="704" rx="56" fill="#ffffff"/>
+  <!-- The hooks are mirror images: each has its long leg on the outside, over
+       the page, and its short leg going in behind the page's top edge. -->
+  <g fill="none" stroke="#1b2272" stroke-width="32">
+    <path d="M336 272V144a32 32 0 0 1 64 0v48"/>
+    <path d="M688 272V144a32 32 0 0 0 -64 0v48"/>
+  </g>
+  <g fill="#1b2272">
+    <circle cx="336" cy="272" r="16"/>
+    <circle cx="688" cy="272" r="16"/>
+  </g>
+  <!-- Monday..Friday. -->
+  <rect x="208" y="384" width="96" height="192" rx="20" fill="#fcc23d"/>
+  <rect x="336" y="576" width="96" height="256" rx="20" fill="#65b6ec"/>
+  <rect x="464" y="384" width="96" height="448" rx="20" fill="#fd6454"/>
+  <rect x="592" y="384" width="96" height="160" rx="20" fill="#c576f3"/>
+  <rect x="720" y="576" width="96" height="256" rx="20" fill="#79d5b0"/>
+</svg>
